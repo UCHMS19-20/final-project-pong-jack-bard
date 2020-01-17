@@ -46,9 +46,11 @@ def screen_setup():
    screen.blit(text, [300, 35])
    text = font.render(str(score2), True, WHITE)
    screen.blit(text, [500, 35])
-   font = pygame.font.SysFont('Calibri', 20, True, False)
-   text = font.render("CONTROLS...", True, WHITE)
-   screen.blit(text, [650, 35])
+   font = pygame.font.SysFont('Calibri', 15, True, False)
+   text = font.render("Player 1: w and s", True, WHITE)
+   screen.blit(text, [620, 30])
+   text = font.render("Player 2: up and down", True, WHITE)
+   screen.blit(text, [620, 60])
    return
 
 winon = True
@@ -57,7 +59,7 @@ def wingame():
 
     font = pygame.font.SysFont('Calibri', 80, True, False)
 
-    if score1 == 3 and winon == True :
+    if score1 == 5 and winon == True :
         winon == False
         text = font.render("Player 1 Wins!", True, WHITE)
         screen.fill(BLACK)
@@ -65,7 +67,7 @@ def wingame():
         pygame.display.flip()
         pygame.time.delay (2500)
         pygame.quit()
-    elif score2 == 3 and winon == True :
+    elif score2 == 5 and winon == True :
         winon == False
         text = font.render("Player 2 Wins!", True, WHITE)
         screen.fill(BLACK)
@@ -119,8 +121,8 @@ class Paddle:
        self.y = y
        self.dy = dy
 
-paddle1 = Paddle("paddle1", 30, 350, thickness)
-paddle2 = Paddle("paddle2", 770, 350, thickness)
+paddle1 = Paddle("paddle1", 30, 350, 10)
+paddle2 = Paddle("paddle2", 770, 350, 10)
 
 class Powerup:
    def __init__(self):
@@ -225,8 +227,7 @@ while not done:
             pygame.draw.circle(screen, YELLOW, [int(powerup.x), int(powerup.y)], radius2)
             if ball.x + radius + radius2 > powerup.x and ball.x - radius - radius2 < powerup.x and ball.y + radius + radius2 > powerup.y and ball.y - radius - radius2 < powerup.y:
                 paddle_length = paddle_length/2
-                powerup_on = False
-                switch == True
+                powerup_on = False and switch == True
 
 
   
