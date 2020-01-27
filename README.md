@@ -1,50 +1,20 @@
-# Intro to Programming Final Project - Fall 2019
+## About Pong
 
-Please note that this website and the repository associated with it are the official source of info for the project. I will post all updates here. Please note that my updates will not be reflected in your repository, only in mine. Updates to the assignment info will be posted [here](https://jgerstein.github.io/FinalProject19/), resources will be on [the resources page](https://jgerstein.github.io/FinalProject19/resources), and sample code will be in the main repository's [examples](https://github.com/jgerstein/FinalProject19/tree/master/examples) folder.
+Pong is a two dimensional table tennis game that was originally released in 1972. The game can be played against a computer, or two people can play each other. Each player has a rectangular paddle, which is on opposite sides of the screen. The players control the position position of their paddle by using up and down controls. The players must move their paddles in order to hit a ball, which reverses direction when it hits a paddle or the top and bottom border of the screen. If the ball goes passed one player’s paddle, the other player gets a point, and the ball resets.
 
-## Goal
+My specific version of Pong is slightly different than the original because it includes an extra feature. My game includes powerups, which are small colorful circles that can spawn randomly on the play area. When the ball collides with the powerup, one of three things can happen. The ball can increase in speed, reverse direction, or shrink the paddle size of both players. 
 
-Plan, code, document, and present a game written in Python. I encourage you to include graphics with Pygame or another game engine, but will not require it.
 
-## Criteria
+### Flowchart
 
-Excellent work will include:
+https://drive.google.com/open?id=1MaW6JmoiVPFzEC_XYxikGX7aTFLJtAcX 
 
-* Clean, well-written, effective code
-* Version control in Git
-* Clear documentation of how te code works
-* A presentation of the game and of the process of creating it
-* Citations (MLA format) of the resources you used.
 
-## Expectations
+### Presentation
 
-### General
+https://docs.google.com/presentation/d/1l2DaMwI8ysouC7ffshIDi3K6CDhn3hnytMy64eiW6Bg/edit#slide=id.g6e1766de70_0_0
 
-* This is intended as an individual project. You may help each other, but you are responsible for your own work.
-* I am willing to consider partnerships for larger and more complex projects
-* You may (and are encouraged to) use resources you find online, but may not outright copy someone else's work and must credit your sources
-* Your work should challenge you but be achievable
-* You are expected to understand how your own code works. If you are not able to explain any part of your own code, that will be cause for concern
 
-### Code
+### Citations
 
-* Your code should make effective use of classes and/or functions. We will review in class
-* Your code should be clear and well documented with comments and appropriate naming schemes
-* Your code should be managed through Git. I will be expecting to see commits reflecting your progress as you work on the project, and would prefer to see feature branches and a stable master branch.
-* Your code should be as reliable and as free of bugs as you can manage
-
-## Timeline
-
-Date  | Checkpoint
-------|---------------------------------------------
-12/16 | Project Proposals Due (all classes)
-12/20 | Git repository setup check
-1/7   | First code checkpoint
-1/13  | Second code checkpoint
-1/17  | Third code checkpoint
-1/23  | Exams Begin. All code and documentation due
-
-## Links
-
-* [Documentation](documentation.md)
-* [Resources](resources.md)
+“Pygame Documentation.” Pygame, www.pygame.org/docs/ref/pygame.html.
