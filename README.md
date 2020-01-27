@@ -15,6 +15,8 @@ https://drive.google.com/open?id=1MaW6JmoiVPFzEC_XYxikGX7aTFLJtAcX
 https://docs.google.com/presentation/d/1l2DaMwI8ysouC7ffshIDi3K6CDhn3hnytMy64eiW6Bg/edit#slide=id.g6e1766de70_0_0
 
 
-### Citations
+### Work Cited
+
+“Pong Tutorial Using Pygame – Getting Started.” 101 Computing, 27 May 2019, www.101computing.net/pong-tutorial-using-pygame-getting-started/.
 
 “Pygame Documentation.” Pygame, www.pygame.org/docs/ref/pygame.html.
